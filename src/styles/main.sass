@@ -1,0 +1,555 @@
+body
+	font-family: 'Lato'
+.owl-stage-outer
+	height: 100%
+#menu	
+	font-size: 0
+#panel
+	font-size: 0
+.header	
+	box-shadow: 0 4px rgba(0,0,0,.11)
+	margin-bottom: 4px
+	.nav
+		justify-content: space-between
+		display: flex
+		margin: auto
+		max-width: 1240px
+		padding: 0 15px
+.header.default
+	z-index: 9999
+	position: fixed
+	width: 100%
+	background-color: white
+.left
+	display: flex
+	flex-flow: row wrap
+	justify-content: flex-start
+	padding: 24px 0 25px
+	.logo
+		display: flex
+		flex-flow: row wrap
+		align-items: center
+		p
+			margin: 0	
+			padding-left: 10px
+			font-size: 25px
+			font-weight: bold
+			text-transform: uppercase
+			color: #cacaca
+			font-family: 'Lato'
+			cursor: default
+			transition: background 0.3s linear 0s, color 0.3s linear 0s
+			&:hover
+				color: #1abb9c
+.right
+	display: flex
+	flex-flow: row wrap
+	justify-content: flex-end
+	align-items: center
+	.nav-item
+		padding-left: 40px
+		a
+			text-decoration: none
+			font-family: 'Lato'
+			color: #c5c5c5
+			text-transform: uppercase
+			font-size: 15px
+			font-weight: 700
+			transition: background 0.3s linear 0s, color 0.3s linear 0s
+			&:hover
+				color: #1abb9c
+			&:active
+				color: darken(#1abb9c, 10%)
+
+
+
+
+
+
+
+
+
+
+
+.slider
+	position: relative
+	background-color: #1abb9c
+	.swiper-container-horizontal
+		background-color: #1abb9c
+		min-height: 200px
+		img
+			max-width: 100%
+	.content
+		position: absolute
+		margin: 0
+		text-transform: uppercase
+		font-family: 'Lato'
+		display: flex
+		flex-flow: column wrap
+		margin: auto
+		align-items: center
+		width: 100%
+		height: 100%
+	    justify-content: center;
+	    align-items: center;
+	    height: 100%;
+    	width: 100%;
+   		padding: 0;
+		.content-center
+			display: flex
+			flex-flow: column wrap
+			margin: auto
+			align-items: center
+			max-width: 500px
+			z-index: 3
+			h1
+				margin: 0
+				padding: 30px 40px
+				background-color: rgba(26,188,156,.7)
+				margin-bottom: 10px
+				color: white
+				text-align: center
+				font-size: 40px
+
+			h2
+				margin: 0
+				padding: 25px
+				background-color: rgba(26,188,156,.7)
+				color: white
+				text-align: center
+			.buttons
+				display: flex
+				flex-flow: row wrap
+				z-index: 12
+				a
+					display: flex
+					background-color: rgba(26,188,156,.7)
+					margin: 20px 10px
+					color: white
+					transition: background 0.3s linear 0s, color 0.3s linear 0s
+					&:hover
+						background-color: white
+						color: #1abb9c
+				.fa
+					font-size: 25px
+				.fa-twitter
+					padding: 12px 12px
+				.fa-instagram	
+					padding: 11px
+					font-size: 27px
+				.fa-google-plus
+					padding: 11px 6px
+				.fa-envelope-o
+					padding: 10px	
+
+
+
+
+
+
+
+
+.box
+	background-color: #1abb9c
+	position: relative
+	.header-about
+		max-width: 1240px
+		margin: auto
+		display: flex
+		flex-flow: column wrap
+		h2
+			font-family: 'Lato'
+			text-transform: uppercase
+			font-size: 25px
+			display: flex
+			margin: auto
+			color: white
+			padding: 27px 20px 30px
+		img
+			height: 7px
+			width: 19px
+			position: absolute
+			bottom: -7px
+			left: 49%
+			z-index: 1
+.about-content
+	padding: 80px 0 
+	font-family: 'Lato'
+	display: flex
+	background-color: white
+	max-width: 1240px
+	margin: auto
+	flex-flow: column wrap
+	.up-content
+		display: flex
+		flex-flow: row wrap
+		.img-up-content
+			border-radius: 50%
+			max-width: 320px
+			margin: auto
+			img
+				border-radius: 50%
+				border: 5px solid #ccc
+		.right-content
+			margin: auto
+			padding-left: 55px
+			max-width: 840px
+			.title-up-content
+				font-size: 22px
+				font-weight: 300
+				color: #656565
+				line-height: 35px
+				padding-bottom: 55px
+			.subtitle-up-content
+				font-size: 15px
+				color: #656565
+				line-height: 33px
+	.down-content
+		display: flex
+		margin: 0 auto
+		flex-flow: row wrap
+		padding-top: 60px
+		.down-content-block
+			width: 30%
+			min-width: 256px
+			margin: 0 auto
+			.down-content-title
+				font-size: 16px
+				text-transform: uppercase
+				color: #484848
+				font-weight: 900
+				line-height: 65px
+			.down-content-subtitle
+				font-size: 15px
+				color: #656565
+				line-height: 33px
+	.btn
+		display: flex
+		margin: auto
+		margin-top: 60px
+		a
+			color: white
+			border-radius: 3px
+			box-shadow: inset 0 -4px rgba(0,0,0,.15)
+			background-color: #c5c5c5
+			padding: 12px 25px 13px 22px
+			text-transform: uppercase
+			display: flex
+			transition: background 0.3s linear 0s, color 0.3s linear 0s
+			&:hover
+				background-color: #1abb9c
+			&:active
+				background-color: darken(#1abb9c, 10%)
+			img
+				padding-right: 10px
+
+
+
+
+
+
+
+.slider-con
+	position: relative
+	background-color: #333333
+	.owl-carousel.owl-loaded
+		padding-bottom: 28px
+	.swipper-slide
+		display: flex
+		justify-content: center
+		align-items: center
+		width: 100%
+		img
+			display: flex
+			margin: auto
+			width: 100%
+	.slider-content
+		max-width: 1240px	
+		color: white
+		display: flex
+		margin: auto
+		flex-flow: column wrap
+		padding-left: 20px
+		padding-top: 55px
+		.title
+			font-family: 'Lato'
+			font-size: 16px
+			line-height: 65px
+			text-transform: uppercase
+			font-weight: 900
+		.subtitle
+			font-size: 15px
+			line-height: 33px
+			font-weight: 400
+			color: #b3b3b3
+			padding-bottom: 50px
+.slider-bw
+	position: relative
+	background-color: #333333
+	tac
+	.owl-carousel.owl-loaded
+		padding-bottom: 55px
+	.swipper-slide
+		display: flex
+		justify-content: center
+		align-items: center
+		width: 100%
+		img
+			display: flex
+			margin: auto
+			width: 100%
+	.slider-content
+		max-width: 1240px	
+		color: white
+		display: flex
+		margin: auto
+		flex-flow: column wrap
+		padding-left: 20px
+		.title
+			font-family: 'Lato'
+			font-size: 16px
+			line-height: 65px
+			text-transform: uppercase
+			font-weight: 900
+		.subtitle
+			font-size: 15px
+			line-height: 33px
+			font-weight: 400
+			color: #b3b3b3
+			padding-bottom: 50px
+
+
+
+
+
+
+
+.journal-bg
+	background-color: #F0F0F0
+.journal-content
+	max-width: 1240px
+	display: flex
+	margin: auto
+	flex-flow: column wrap
+	padding: 40px 0 
+	background-color: #F0F0F0
+	font-family: 'Lato'
+	.up-content, .down-content
+		display: flex
+		flex-flow: row wrap
+		justify-content: space-between
+		.item-cont
+			max-width: 565px
+			padding: 40px 20px
+			.img-up-cont
+			.date-cont
+				display: flex
+				justify-content: space-between
+				background-color: #F9F9F9
+				font-size: 13px
+				font-weight: 900
+				text-transform: uppercase
+				line-height: 15px
+				color: #9f9f9f
+				padding: 25px
+				.name-date
+				.like-date
+					a
+						text-decoration: none
+						color: #9f9f9f
+						.fa
+							color: #E59098
+							&:hover
+								color: darken(#E59098, 10%)
+			.text-cont
+				background-color: #FFF
+				box-shadow: 0 4px 0 rgba(0,0,0,.05)
+				padding: 25px
+				.title-cont
+					font-size: 16px
+					font-weight: 900
+					color: #5c5c5c
+					padding-bottom: 25px
+				.subtitle-cont
+					font-style: 15px
+					font-weight: 400
+					color: #656565
+					line-height: 33px
+
+
+
+
+.contact
+	background-image: url("../img/contact-bg.jpg")
+	background-position: center center
+	background-repeat: no-repeat
+	background-attachment: fixed
+	background-size: cover
+	display: flex
+	.contact-cont
+		display: flex
+		flex-flow: row wrap
+		margin: auto
+		width: 1240px
+		.contact-form
+			display: flex
+			width: 65%
+			padding: 60px 20px
+			.form-group
+				display: flex
+				margin: auto
+			form
+				width: 100%
+				.btn
+					margin-left: 20px
+					margin-top: 20px
+					margin-bottom: 20px
+					display: flex
+					color: white
+					border-radius: 3px
+					box-shadow: inset 0 -4px rgba(0,0,0,.15)
+					background-color: #c5c5c5
+					padding: 12px 25px 13px 22px
+					text-transform: uppercase
+					display: flex
+					transition: background 0.3s linear 0s, color 0.3s linear 0s
+					&:hover
+						background-color: #1abb9c
+					&:active
+						background-color: darken(#1abb9c, 10%)
+				input
+					font-size: 13px
+					font-weight: 900
+					font-family: 'Lato'
+					text-transform: uppercase
+					width: 100%
+					height: 50px
+					margin: 20px
+					display: flex
+					background-color: rgba(255,255,255,.1)
+					border: none
+					color: #A9A9A9
+					padding: 0 20px
+					outline: none
+			.text
+				height: 210px
+				width: 100%
+		.contact-det
+			display: flex
+			flex-flow: column wrap
+			width: 30%
+			padding: 80px 0
+			.contact-title
+				font-weight: 900
+				font-size: 16px
+				color: white
+				text-transform: uppercase
+				padding-bottom: 30px
+			.contact-subtitle
+				font-weight: 400
+				font-size: 15px
+				color: white
+				padding-bottom: 30px
+				line-height: 33px
+				color: #B7B7B7
+			.contact-adr
+				font-weight: 400
+				font-size: 15px
+				color: #b7b7b7
+				padding-bottom: 20px
+				a
+					color: #b7b7b7
+				img
+					margin-right: 10px
+			.contact-ph
+				font-weight: 400
+				font-size: 15px
+				color: #b7b7b7
+				padding-bottom: 20px
+				a
+					color: #b7b7b7
+				img
+					margin-right: 10px
+			.contact-mes
+				font-weight: 400
+				font-size: 15px
+				color: #b7b7b7
+				padding-bottom: 20px
+				a
+					color: #b7b7b7
+				img
+					margin-right: 10px
+
+
+
+
+
+
+.footer	
+	display: flex
+	flex-flow: column wrap
+	padding: 25px
+	.rights		
+		display: flex
+		margin: auto
+		font-weight: 400
+		font-size: 15px
+		color: #656565
+	.social
+		display: flex
+		flex-flow: row wrap
+		margin: auto
+		padding: 15px 25px 0
+		a
+			color: #B2B2B2
+			margin-left: 15px
+			font-size: 30px
+			transition: background 0.3s linear 0s, color 0.3s linear 0s
+			&:hover
+				color: #1abb9c
+			&:active
+				color: darken(#1abb9c, 10%)
+
+
+
+
+
+.hidden
+	display: none
+#popup
+	background-color: #333333
+	padding: 20px
+	margin: auto
+	max-width: 300px
+	input
+		font-size: 13px
+		font-weight: 900
+		font-family: Lato
+		text-transform: uppercase
+		width: 82%
+		height: 50px
+		margin: 10px
+		background-color: rgba(255,255,255,.1)
+		border: none
+		color: #A9A9A9
+		padding: 0 20px
+		outline: 0
+	button
+		color: #fff
+		box-shadow: inset 0 -4px rgba(0,0,0,.15)
+		background-color: #c5c5c5
+		padding: 12px 25px 13px 22px
+		transition: background .3s linear 0s,color .3s linear 0s;
+		border-radius: 4px
+		display: inline-block
+		margin-top: 10px
+		margin-left: 38px
+		&:hover
+			background-color: #1abb9c
+		&:active
+			background-color: darken(#1abb9c, 10%)
+	.error
+		&:hover
+			background-color: #d35a5a
+		&:active
+			background-color: darken(#d35a5a, 10%)
